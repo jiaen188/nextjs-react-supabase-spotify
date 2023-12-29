@@ -2,9 +2,9 @@
 
 import { usePathname } from "next/navigation";
 import { useMemo } from "react";
+import { BiSearch, BiHome } from "react-icons/bi";
 import Box from "./Box";
 import SidebarItem from "./SidebarItem";
-import { BiSearch, BiHome } from "react-icons/bi";
 import Library from "./Library";
 
 interface SidebarProps {
