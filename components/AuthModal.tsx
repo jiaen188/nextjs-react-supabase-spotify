@@ -15,7 +15,7 @@ const AuthModal = () => {
   const supabaseClient = useSupabaseClient();
   const router = useRouter();
   const { session } = useSessionContext();
-  const { isOpen, onOpen, onClose } = useAuthModal();
+  const { isOpen, onClose } = useAuthModal();
 
   useEffect(() => {
     if (session) {
