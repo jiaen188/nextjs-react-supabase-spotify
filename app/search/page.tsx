@@ -10,6 +10,8 @@ interface SearchProps {
   };
 }
 
+export const revalidate = 0; // revalidate this page every 0 seconds
+
 const Search = async ({ searchParams }: SearchProps) => {
   const songs = await getSongsByTitle(searchParams.title);
 
